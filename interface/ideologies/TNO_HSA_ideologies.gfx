@@ -1,0 +1,7 @@
+spriteTypes = {
+	# --- Subideologies --- #
+	spriteType = {
+		name = "GFX_ideology_communist_Monarchical_harmonism_Socialism_subtype"
+		texturefile = "gfx/interface/ideologies/communist_harmonism_subtype.dds"
+	}
+}

@@ -1,0 +1,22 @@
+﻿l_simp_chinese:
+ HSA: "烙馍"
+ HSA_ADJ: "烙馍"
+ HSA_DEF: "烙馍"
+ HSA_communist: "苏维埃社会主义共和国联盟"
+ HSA_communist_DEF: "苏维埃社会主义共和国联盟"
+ HSA_communist_ADJ: "苏联"
+ HSA_socialist: "苏维埃社会主义共和国联盟"
+ HSA_despotism: "俄罗斯帝国"
+ HSA_despotism_DEF: "俄罗斯帝国"
+ HSA_fascism: "俄罗斯民族国"
+ HSA_fascism_DEF: "俄罗斯民族国"
+ HSA_national_socialism: "俄罗斯民族国"
+ HSA_national_socialism_DEF: "俄罗斯民族国"
+ HSA_ultranationalism: "俄罗斯民族国"
+ HSA_ultranationalism_DEF: "俄罗斯民族国"
+
+ HSA_Sunset_Shimmer: "余晖烁烁"
+ POLITICS_Sunset_Shimmer_DESC: "余晖烁烁人物描述"
+
+ communist_Monarchical_harmonism_Socialism_subtype: "君主谐律社会主义"
+ communist_Monarchical_harmonism_Socialism_subtype_desc: "君主谐律社会主义描述"

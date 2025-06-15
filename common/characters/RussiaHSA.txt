@@ -1,0 +1,258 @@
+characters = {
+	HSA_Sunset_Shimmer = {
+		portraits = {
+			civilian = {    #担任领导人时的头像
+				large = "gfx/leaders/HSA/Portrait_Sunset_Shimmer.png"
+			}
+		}
+		country_leader={   #领导人role（角色）
+			ideology = communist_Monarchical_harmonism_Socialism_subtype 
+			traits={ #国家领导人特质
+			}
+			expire="2025.6.15"
+			desc = "POLITICS_Sunset_Shimmer_DESC"
+			id = -1
+		}
+	}
+	# Generals #
+	HSA_Yakov_Kreizer = {
+		name = SVR_Yakov_Kreizer
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVR/Portrait_Sverdlovsk_Yakov_Kreizer.png"
+			}
+		}
+		corps_commander = {
+			traits = { trait_cautious infantry_officer inflexible_strategist }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 3553
+		}
+	}
+	HSA_Vasily_Kazakov = {
+		name = SVR_Vasily_Kazakov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVR/Portrait_Sverdlovsk_Vasily_Kazakov.png"
+			}
+		}
+		corps_commander = {
+			traits = { bearer_of_artillery }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = 3555
+		}
+	}
+	HSA_Alexey_Proshlyakov = {
+		name = SVR_Alexey_Proshlyakov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVR/Portrait_Sverdlovsk_Alexey_Proshlyakov.png"
+			}
+		}
+		corps_commander = {
+			traits = { trait_cautious trait_engineer }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+			legacy_id = 3557
+		}
+	}
+	HSA_Alexei_Radzievsky = {
+		name = SVR_Alexei_Radzievsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVR/Portrait_Sverdlovsk_Alexey_Radzievsky.png"
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer organizer }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id = 3558
+		}
+	}
+	HSA_Dmitry_Lelyushenko = {
+		name = SVR_Dmitry_Lelyushenko
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVR/Portrait_Sverdlovsk_Dmitry_Lelyushenko.png"
+			}
+		}
+		corps_commander = {
+			traits = { media_personality armor_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = 3559
+		}
+	}
+	HSA_Alexander_Yegorovsky = {
+		name = SVR_Alexander_Yegorovsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVR/Portrait_Sverdlovsk_Alexander_Yegorovsky.png"
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = 3560
+		}
+	}
+	HSA_Aleksey_Zhadov = {
+		name = SVR_Aleksey_Zhadov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVR/Portrait_Sverdlovsk_Alexey_Zhadov.png"
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer cavalry_leader }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = 3561
+		}
+	}
+	HSA_Kuzma_Galitsky = {
+		name = SVR_Kuzma_Galitsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVR/Portrait_Sverdlovsk_Kuzma_Galitsky.png"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer infantry_leader }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = 3562
+		}
+	}
+	HSA_Pavel_Rotmistrov = {
+		name = SVR_Pavel_Rotmistrov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVR/Portrait_Sverdlovsk_Pavel_Rotmistrov.png"
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer panzer_leader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 3
+			legacy_id = 3563
+		}
+	}
+
+	HSA_Viktor_Leonov = {
+		name = SVR_Viktor_Leonov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVR/Portrait_Sverdlovsk_Viktor_Leonov.png"
+			}
+		}
+	}
+	HSA_Alexander_Yegorovsky = {
+		name = SVR_Alexander_Yegorovsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVR/Portrait_Sverdlovsk_Alexander_Yegorovsky.png"
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id = 3560
+		}
+	}
+	HSA_Aleksey_Zhadov = {
+		name = SVR_Aleksey_Zhadov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVR/Portrait_Sverdlovsk_Alexey_Zhadov.png"
+			}
+		}
+		corps_commander = {
+			traits = { cavalry_officer cavalry_leader }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = 3561
+		}
+	}
+	HSA_Kuzma_Galitsky = {
+		name = SVR_Kuzma_Galitsky
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVR/Portrait_Sverdlovsk_Kuzma_Galitsky.png"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer infantry_leader }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = 3562
+		}
+	}
+	HSA_Pavel_Rotmistrov = {
+		name = SVR_Pavel_Rotmistrov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVR/Portrait_Sverdlovsk_Pavel_Rotmistrov.png"
+			}
+		}
+		corps_commander = {
+			traits = { armor_officer panzer_leader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 3
+			legacy_id = 3563
+		}
+	}
+
+	HSA_Viktor_Leonov = {
+		name = SVR_Viktor_Leonov
+		portraits = {
+			army = {
+				large = "gfx/leaders/SVR/Portrait_Sverdlovsk_Viktor_Leonov.png"
+			}
+		}
+	}
+}
+
