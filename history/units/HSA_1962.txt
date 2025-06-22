@@ -1,0 +1,1064 @@
+﻿division_template = {
+	name = "苏维埃工农红军(精锐）"
+	division_names_group = HSA_01
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 0
+			y = 1
+		}
+		infantry = {
+			x = 0
+			y = 2
+		}
+		infantry = {
+			x = 0
+			y = 3
+		}
+		infantry = {
+			x = 0
+			y = 4
+		}
+		infantry = {
+			x = 0
+			y = 5
+		}
+		infantry = {
+			x = 1
+			y = 0
+		}
+		infantry = {
+			x = 1
+			y = 1
+		}
+		infantry = {
+			x = 1
+			y = 2
+		}
+		infantry = {
+			x = 1
+			y = 3
+		}
+		infantry = {
+			x = 1
+			y = 4
+		}
+		infantry = {
+			x = 1
+			y = 5
+		}
+		infantry = {
+			x = 2
+			y = 0
+		}
+		infantry = {
+			x = 2
+			y = 1
+		}
+		infantry = {
+			x = 2
+			y = 2
+		}
+		infantry = {
+			x = 2
+			y = 3
+		}
+		infantry = {
+			x = 2
+			y = 4
+		}
+		infantry = {
+			x = 2
+			y = 5
+		}
+	}
+	support = {
+		transport_helicopter_company = {
+			x = 0
+			y = 0
+		}
+		artillery = {
+			x = 0
+			y = 1
+		}
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "苏维埃工农红军"
+	division_names_group = HSA_02
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 1
+			y = 0
+		}
+		infantry = {
+			x = 0
+			y = 1
+		}
+		infantry = {
+			x = 1
+			y = 1
+		}
+		infantry = {
+			x = 0
+			y = 2
+		}
+		infantry = {
+			x = 1
+			y = 2
+		}
+	}
+	priority = 1
+	support = {
+		artillery = {
+			x = 0
+			y = 1
+		}
+	}
+}
+
+division_template = {
+	name = "劳动革命师"
+	division_names_group = HSA_03
+	is_locked = yes
+	regiments = {
+		light_infantry = {
+			x = 0
+			y = 0
+		}
+		light_infantry = {
+			x = 1
+			y = 0
+		}
+		light_infantry = {
+			x = 2
+			y = 0
+		}
+		light_infantry = {
+			x = 0
+			y = 1
+		}
+		light_infantry = {
+			x = 1
+			y = 1
+		}
+		light_infantry = {
+			x = 2
+			y = 1
+		}
+		light_infantry = {
+			x = 0
+			y = 2
+		}
+		light_infantry = {
+			x = 1
+			y = 2
+		}
+		light_infantry = {
+			x = 0
+			y = 3
+		}
+		light_infantry = {
+			x = 1
+			y = 3
+		}
+	}
+	priority = 1
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+		artillery = {
+			x = 0
+			y = 1
+		}
+	}
+}
+
+division_template = {
+	name = "Panzer-Division"
+	division_names_group = GER_panzer
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		MBT = { x = 1 y = 0 }
+		MBT = { x = 1 y = 1 }
+		MBT = { x = 1 y = 2 }
+		MBT = { x = 2 y = 0 }
+		MBT = { x = 2 y = 1 }
+		MBT = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		anti_tank = { x = 0 y = 2 }
+		maintenance_company = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "主战装甲师"
+	division_names_group = HSA_CAV_01
+	regiments = {
+		MBT = {
+			x = 0
+			y = 0
+		}
+		MBT = {
+			x = 1
+			y = 0
+		}
+		MBT = {
+			x = 2
+			y = 0
+		}
+		MBT = {
+			x = 0
+			y = 1
+		}
+		MBT = {
+			x = 1
+			y = 1
+		}
+		MBT = {
+			x = 2
+			y = 1
+		}
+		MBT = {
+			x = 0
+			y = 2
+		}
+		MBT = {
+			x = 1
+			y = 2
+		}
+		MBT = {
+			x = 2
+			y = 2
+		}
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "骑兵(小型师）"
+	division_names_group = HSA_CAV_01
+	regiments = {
+		cavalry = {
+			x = 0
+			y = 0
+		}
+		cavalry = {
+			x = 1
+			y = 0
+		}
+		cavalry = {
+			x = 2
+			y = 0
+		}
+		cavalry = {
+			x = 0
+			y = 1
+		}
+		cavalry = {
+			x = 1
+			y = 1
+		}
+	}
+	priority = 1
+}
+
+##### STARTING PRODUCTION #####
+instant_effect = {
+	#步枪生产线
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "RUS"
+		}
+		requested_factories = 20
+		progress = 0.33
+		efficiency = 100
+	}
+}
+
+#force_equipment_variants = { support_equipment_1 = { owner = RUS creator = ENG } }
+#force_equipment_variants = { motorized_equipment_1 = { owner = RUS creator = ENG } }
+#force_equipment_variants = { gw_armored_car_equipment = { owner = RUS creator = ENG } }
+#force_equipment_variants = { light_tank_chassis_2 = { owner = RUS creator = ENG } }
+#force_equipment_variants = { artillery_equipment_1 = { owner = RUS creator = ENG } }
+units = {
+	division = {
+		name = "第一师"
+		location = 6199
+		division_template = "苏维埃工农红军"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第二师"
+		location = 6199
+		division_template = "苏维埃工农红军"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第三师"
+		location = 6199
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第四师"
+		location = 9101
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第五师"
+		location = 9101
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第六师"
+		location = 3064
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第七师"
+		location = 3064
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第八师"
+		location = 6100
+		division_template = "苏维埃工农红军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "第九师"
+		location = 6100
+		division_template = "苏维埃工农红军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "第十师"
+		location = 6110
+		division_template = "苏维埃工农红军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "第十一师"
+		location = 6110
+		division_template = "苏维埃工农红军"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "第十二师"
+		location = 11192
+		division_template = "苏维埃工农红军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}	
+	division = {
+		name = "第十三师"
+		location = 11192
+		division_template = "苏维埃工农红军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "第十四师"
+		location = 3264
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第十五师"
+		location = 3300
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第十六师"
+		location = 3294
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第十七师"
+		location = 3186
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第十八师"
+		location = 9214
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第十九师"
+		location = 13309
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第二十师"
+		location = 13309
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第二十一师"
+		location = 9370
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第二十二师"
+		location = 6124
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第二十三师"
+		location = 6124
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+
+	division = {
+		name = "第二十四师"
+		location = 11256
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第二十五师"
+		location = 11256
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第二十六师"
+		location = 9420
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第二十七师"
+		location = 9420
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第二十八师"
+		location = 6323
+		division_template = "苏维埃工农红军"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第二十九师"
+		location = 6323
+		division_template = "苏维埃工农红军"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第三十师"
+		location = 10301
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第三十一师"
+		location = 10301
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第三十二师"
+		location = 9420
+		division_template = "苏维埃工农红军"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第三十三师"
+		location = 7438
+		division_template = "苏维埃工农红军"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第三十四师"
+		location = 7438
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第三十五师"
+		location = 4261
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第三十六师"
+		location = 14671
+		division_template = "苏维埃工农红军"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第三十七师"
+		location = 14671
+		division_template = "苏维埃工农红军"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第三十八师"
+		location = 4719
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第三十九师"
+		location = 12543
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第四十师"
+		location = 5331
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第四十一师"
+		location = 4719
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第四十二师"
+		location = 12543
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第四十三师"
+		location = 5331
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第四十五师"
+		location = 6278
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第四十六师"
+		location = 10568
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第四十七师"
+		location = 10568
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第四十八师"
+		location = 10696
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第四十九师"
+		location = 10696
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第五十师"
+		location = 11410
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第五十一师"
+		location = 6515
+		division_template = "苏维埃工农红军"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第五十二师"
+		location = 6515
+		division_template = "苏维埃工农红军"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第五十三师"
+		location = 3330
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第五十四师"
+		location = 13300
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第五十五师"
+		location = 7359
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	###
+	division = {
+		name = "第五十六师"
+		location = 6515
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第五十七师"
+		location = 6515
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第五十八师"
+		location = 3330
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第五十九师"
+		location = 13300
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第六十师"
+		location = 7359
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	###
+	division = {
+		name = "第六十一师"
+		location = 6515
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第六十二师"
+		location = 6515
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第六十三师"
+		location = 3330
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第六十四师"
+		location = 13300
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第六十五师"
+		location = 7359
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	###
+	division = {
+		name = "第六十六师"
+		location = 6515
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第六十七师"
+		location = 6515
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第六十八师"
+		location = 3330
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第六十九师"
+		location = 13300
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第七十师"
+		location = 7359
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+###
+	division = {
+		name = "第七十一师"
+		location = 4734
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第七十二师"
+		location = 4734
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第七十三师"
+		location = 7825
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第七十四师"
+		location = 1860
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第七十五师"
+		location = 10555
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第七十六师"
+		location = 1674
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第七十七师"
+		location = 1674
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第七十八师"
+		location = 7789
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第七十九师"
+		location = 7789
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第八十师"
+		location = 12174
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第八十一师"
+		location = 4789
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第八十二师"
+		location = 7757
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第八十三师"
+		location = 1985
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第八十四师"
+		location = 11410
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第八十五师"
+		location = 13298
+		division_template = "苏维埃工农红军(精锐）"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+#####
+	division = {
+		name = "坦克第一师"
+		location = 3186
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}	
+	division = {
+		name = "坦克第二师"
+		location = 3294
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "坦克第三师"
+		location = 9370
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "坦克第四师"
+		location = 9420
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "坦克第五师"
+		location = 9292
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "坦克第六师"
+		location = 1762
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "坦克第七师"
+		location = 4766
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "坦克第八师"
+		location = 9293
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "第一主战坦克师"
+		location = 3064
+		division_template = "主战装甲师"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第二主战坦克师"
+		location = 3166
+		division_template = "主战装甲师"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第三主战坦克师"
+		location = 1762
+		division_template = "主战装甲师"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第四主战坦克师"
+		location = 4766
+		division_template = "主战装甲师"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第五主战坦克师"
+		location = 10683
+		division_template = "主战装甲师"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第六主战坦克师"
+		location = 7403
+		division_template = "主战装甲师"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第七主战坦克师"
+		location = 7403
+		division_template = "主战装甲师"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第八主战坦克师"
+		location = 6278
+		division_template = "主战装甲师"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第九主战坦克师"
+		location = 7403
+		division_template = "主战装甲师"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第十主战坦克师"
+		location = 7403
+		division_template = "主战装甲师"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第十一主战坦克师"
+		location = 6278
+		division_template = "主战装甲师"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第十二主战坦克师"
+		location = 9370
+		division_template = "主战装甲师"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第十三主战坦克师"
+		location = 11410
+		division_template = "主战装甲师"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第十四主战坦克师"
+		location = 11410
+		division_template = "主战装甲师"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第十五主战坦克师"
+		location = 5331
+		division_template = "主战装甲师"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "第十六主战坦克师"
+		location = 10678
+		division_template = "主战装甲师"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.8
+	}
+}

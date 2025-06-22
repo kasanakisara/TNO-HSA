@@ -2,7 +2,7 @@ capital = 853
 
 set_country_flag = is_russian_nation
 
-oob = "BKR_1962"
+oob = "HSA_1962"
 
 set_research_slots = 2
 set_convoys = 0
@@ -42,11 +42,13 @@ add_ideas = {
 	tno_public_meetings_regulated
 	tno_press_rights_censored_press
 	tno_vote_franchise_registered_voting
+
 	##MILITARY LAWS###
-	tno_conscription_limited_conscription
+	tno_conscription_extensive_conscription
 	tno_military_supervision_rules_of_engagement
 	tno_training_minimal_training
 	tno_draft_exemptions_civil_service_deferment
+	
 	##SOCIAL LAWS##
 	tno_health_care_low_income_protections
 	tno_education_public_education
